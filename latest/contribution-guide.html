@@ -14,7 +14,7 @@
       document.documentElement.classList.add('dark')
     }
   </script><link rel="shortcut icon" href="_static/logo.png"/><link rel="stylesheet" type="text/css" href="_static/pygments.css?v=aecf457f" />
-    <link rel="stylesheet" type="text/css" href="_static/shibuya.css?v=2981b36d" />
+    <link rel="stylesheet" type="text/css" href="_static/shibuya.css?v=28c32440" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
     <link media="print" rel="stylesheet" type="text/css" href="_static/print.css?v=ee381b95" />
@@ -261,7 +261,7 @@ html.dark {
 <section id="setting-up-the-environment">
 <h2>Setting up the environment<a class="headerlink" href="#setting-up-the-environment" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Install <a class="reference external" href="https://pdm.fming.dev/latest/">Pizza Delivery Man</a></p></li>
+<li><p>Install <a class="reference external" href="https://pdm.fming.dev/latest/">PDM</a></p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">pdm</span> <span class="pre">install</span> <span class="pre">-G:all</span></code> to create a <a class="reference external" href="https://docs.python.org/3/tutorial/venv.html">virtual environment</a> and install
 the dependencies</p></li>
 <li><p>If you’re working on the documentation and need to build it locally, install the extra dependencies with <code class="docutils literal notranslate"><span class="pre">pdm</span> <span class="pre">install</span> <span class="pre">-G:docs</span></code></p></li>
@@ -291,6 +291,10 @@ could be titled <code class="docutils literal notranslate"><span class="pre">fix
 <p class="admonition-title">Tip</p>
 <p>Pull requests and commits all need to follow the
 <a class="reference external" href="https://www.conventionalcommits.org">Conventional Commit format</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To run the integration tests locally, you will need the <a class="reference external" href="https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16">ODBC Driver for SQL Server</a>, one option is using <a class="reference external" href="https://www.unixodbc.org/">unixODBC</a>.</p>
 </div>
 </section>
 </section>
